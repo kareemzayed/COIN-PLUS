@@ -1,0 +1,195 @@
+{
+    "banner":{
+        "no_selection":true,
+       "content":{
+            "backgroundimage":"file",
+            "short_title":"text",
+            "title":"text",
+            "short_description":"textarea",
+            "button_text":"text",
+            "button_text_link":"text",
+            "button_text_2":"text",
+            "button_text_2_link":"text",
+            "form_title": "text",
+            "color_text_for_title":"text"
+       }
+    },
+
+    "counter": {
+        "content":{
+            "heading":"text"
+        },
+        "element": {
+            "title":"text",
+            "counter_amount":"text"
+        }
+    },
+
+
+    "why_choose_us":{
+        "content":{
+            "image":"file",
+            "heading":"text"
+        },
+        "element":{
+            "title":"text",
+            "icon":"icon",
+            "description":"textarea"
+        }
+    },
+
+
+    "how_it_works":{
+        "content": {
+            "top_title": "text",
+            "title": "text",
+            "color_text_for_title":"text"
+        },
+        "element":{
+            "image" : "file",
+            "title" : "text",
+            "short_description":"textarea"
+        }
+    },
+
+    "faq":{
+        "content":{ 
+            "title":"text",
+            "short_description":"textarea",
+            "faq_item_title_1":"text",
+            "faq_item_description_1":"textarea",
+
+            "faq_item_title_2":"text",
+            "faq_item_description_2":"textarea"
+
+
+        },
+        "element":{
+            "question":"text",
+            "answer":"textarea"
+        }
+    },
+
+    "cta":{
+        "content":{
+            "image" : "file",
+            "title":"text",
+            "button_text":"text",
+            "button_link":"text"
+        }
+    },
+
+    "refferal":{
+        "content":{
+            "image":"file",
+            "title":"text",
+            "details":"textarea"
+        }
+    },
+
+
+    "testimonial": {
+        "content": {
+            "title": "text",
+            "short_description": "text",
+            "description":"textarea"
+        },
+        "element":{
+            "image":"file",
+            "client_name" : "text",
+            "designation":"text",
+            "answer":"textarea"
+        }
+    },
+
+    "blog":{
+        "content":{
+          "title":"text"
+        },
+        "element":{
+            "image":"file",
+            "title" : "text",
+            "short_description":"textarea",
+            "description":"textarea_nic",
+            "tag":"text"
+        }
+    },
+
+    "feature":{
+        "content":{
+            "image":"file",
+            "heading":"text"
+        },
+        "element":{
+            "icon":"icon",
+            "title":"text",
+            "details":"textarea"
+        }
+    },
+
+    "contact":{
+        "content":{
+            "title":"text",
+            "sub_title":"text",
+            "location":"text",
+            "email":"text",
+            "phone":"text"
+        }
+
+    },
+
+    "login":{
+        "no_selection":true,
+        "content":{
+            "side_title":"text",
+            "title":"text",
+            "short_title":"text",
+            "short_description":"textarea"
+        }
+    },
+
+    "registration":{
+        "no_selection":true,
+        "content":{
+            "image":"file",
+            "side_title":"text",
+            "title":"text",
+            "short_description":"textarea"
+        }
+    },
+
+    "footer":{
+        "no_selection":true,
+        "content":{
+            "image":"file",
+            "footer_short_description":"textarea"
+        },
+        "element":{
+            "social_link":"text",
+            "social_icon" : "icon"
+        }
+    },
+
+    "service": {
+        "no_selection":true,
+        "element":{
+            "title" : "text",
+            "description":"textarea_nic",
+            "slug":"text"
+        }
+    },
+
+    "privacy policy": {
+        "no_selection":true,
+        "content": {
+            "Title":"text",
+            "Privacy_Policy": "textarea_nic"
+        }
+    },
+
+    "brand":{
+        "element":{
+            "image":"file"
+        }
+    }
+}
