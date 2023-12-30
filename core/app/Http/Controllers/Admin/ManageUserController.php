@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Admin;
 
 use App\Models\Sale;
 use App\Models\User;
-use App\Models\Payment;
 use App\Models\Purchase;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
@@ -163,7 +162,6 @@ class ManageUserController extends Controller
     public function userDetails(Request $request)
     {
         $user = User::where('id', $request->user)->firstOrFail();
-        $payment = Payment::with('transfer')->where('user_id', $user->id)->where('payment_status', 1)->latest()->first();
         $pageTitle = "تفاصيل المستخدم";
         return view('backend.users.details', compact('pageTitle', 'user'));
     }
